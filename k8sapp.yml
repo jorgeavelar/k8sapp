@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8sapp
+  labels:
+    app: k8sapp
+spec:
+  containers:
+  - name: k8sapp
+    image: jorgeavelar/k8sapp:1.0
+    ports:
+    - containerPort: 8000
