@@ -1,4 +1,6 @@
-# Running simple python using docker and kubernets.
+# Running python application with  docker and kubernets.
+
+## Requirements
 
 ## Build the Docker Image
 
